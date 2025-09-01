@@ -244,13 +244,27 @@ const Projects = () => {
           <p className="text-muted-foreground mb-6">
             Interested in collaborating or learning more about these projects?
           </p>
-          <Button
+          {/* <Button
             size="lg"
             className="glass-effect border-white/20 hover:bg-white/20 hover:scale-105 transition-all duration-300 neon-glow bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0"
           >
             <Github className="mr-2 h-5 w-5" />
             View All on GitHub
-          </Button>
+          </Button> */}
+          <a
+            href="https://github.com/ParanoiddCoder"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              size="lg"
+              className="glass-effect border-white/20 hover:bg-white/20 hover:scale-105 transition-all duration-300 neon-glow bg-gradient-to-r from-purple-500 to-pink-500 text-white border-0"
+            >
+              <Github className="mr-2 h-5 w-5" />
+              View All on GitHub
+            </Button>
+          </a>
+
         </div>
       </div>
     </section>
