@@ -35,8 +35,7 @@ const Projects = () => {
         "Emotion tracking",
         "NLP-based responses",
       ],
-      imageUrl:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+      imageUrl: "/images/projects/mental.png",
       githubLink: "https://github.com/ParanoiddCoder/mental-health-bot",
       demoLink: "#",
       category: "ai",
@@ -70,7 +69,7 @@ const Projects = () => {
     {
       id: 3,
       title:
-        "https://github.com/ParanoiddCoder/Real-Time-Data-Streaming-Pipeline",
+        "Real-Time Sentiment Analytics Pipeline",
       description:
         "Designed a streaming pipeline processing 10K+ reviews/day for anomaly & sentiment detection. Improved Spark consumer throughput by 25% with OOP-based optimizations.",
       technologies: [
@@ -115,7 +114,7 @@ const Projects = () => {
         "Quora dataset implementation",
       ],
       imageUrl:
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+        "https://img.freepik.com/premium-photo/hologram-question-mark-dark-background-with-digital-line_486333-1874.jpg",
       githubLink:
         "https://github.com/ParanoiddCoder/duplicate-question-detection",
       demoLink: "#",
